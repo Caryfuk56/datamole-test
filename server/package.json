@@ -3,9 +3,11 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "server": "node server.js"
+    "server": "node server.js",
+    "dev": "json-server db.json --watch --routes routes.json --middlewares ./mid.js"
   },
   "dependencies": {
     "json-server": "^0.17.0"
   }
 }
+  
